@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    background-color: #1c1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {}
+
+.btn {
+
+
+    border: 3px solid black;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: inset 9px 21px 15px -14px #7a7676a6;
+}
+
+.btn button {
+    font-size: 3rem;
+    cursor: pointer;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-shadow: 0 4px 4px black;
+    background-image: linear-gradient(to top, #626161, #262626);
+    box-shadow:
+        inset 0px 18px 4px -19px #7a7676a6, 0px 13px 13px 0px #000000;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.btn button:hover {
+    background-image: linear-gradient(to bottom, #626161, #262626);
+}
+
+.btn button:active {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    box-shadow: 0px 6px 6px 0px #000000;
+}
+
+;
+}
